@@ -1,0 +1,31 @@
+{
+  "name": "magpie-numes-auth",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Numes (numes.ai) OpenAI-compatible models in Magpie",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "numes",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmini1234/magpie-numesai.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "magpie": {
+    "maxConcurrency": 6,
+    "icon": "https://numes.ai/favicon.svg"
+  }
+}
